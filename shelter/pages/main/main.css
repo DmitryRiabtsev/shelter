@@ -409,6 +409,44 @@
   padding: 1px 182px;
 }
 
+.donation-content__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.donation-content__info {
+  margin-left: 30px;
+  max-width: 380px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.donation-content__info-title {
+  color: #545454;
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 115%;
+  letter-spacing: 0.06rem;
+}
+
+.donation-content__info-title span {
+  display: block;
+}
+
+.donation-content__info-subtitle {
+  color: #545454;
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 165%;
+  letter-spacing: 0.06rem;
+}
+
 .footer {
   padding-top: 40px;
   background: url(../../assets/images/noise_lines_transparent@2X.png), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;

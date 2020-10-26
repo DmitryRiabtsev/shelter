@@ -43,6 +43,17 @@ $color-dark-3xl: #292929;
 	letter-spacing: 0.06rem;
 }
 
+@mixin h5{
+	font: {
+		family: Georgia;
+		style: normal;
+		weight: 400;
+		size: 15px;
+	}	
+	line-height: 165%;
+	letter-spacing: 0.06rem;
+}
+
 @mixin button {
 	font-family: Georgia;
 	font-style: normal;
@@ -436,12 +447,32 @@ $color-dark-3xl: #292929;
 		padding: 1px 182px;
 
 		&__image{
+			display: flex;
+			justify-content: center;
+			align-items: center;
 
 		}
 		&__info{
+			margin-left:30px;
+			max-width: 380px;
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+
 
 			&-title{
 
+				color: $color-dark-l;
+				@include h3;
+
+				span{
+					display: block;
+				}
+			}
+
+			&-subtitle{
+				color: $color-dark-l;
+				@include h5;
 			}
 		}
 

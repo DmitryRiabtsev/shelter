@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animation.css">
+    <link rel="stylesheet" href="creditcard-codes.css">
+    <link rel="stylesheet" href="creditcard-embedded.css">
+    <link rel="stylesheet" href="creditcard-ie7-codes.css">
+    <link rel="stylesheet" href="creditcard-ie7.css">
+    <link rel="stylesheet" href="creditcard.css">
+    <title>Pets Shelter</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header-menu">
+                    <div class="header-logo">
+                        <h1 class="header-logo__title">Cozy House</h1>
+                        <span class="header-logo__subtitle">Shelter for pets in Boston</span>
+                    </div>
+                    <div onclick="burger()" class="header-burger">
+                        <span></span>
+                    </div>
+                    <nav class="header-nav">
+                        <ul class="header-nav__list">
+                            <li class="header-nav__list-item">
+                                <a href="../main/main.html" class="list-link list-link__inactive">About the shelter</a>
+                            </li>
+                            <li class="header-nav__list-item">
+                                <a href="#" class="list-link list-link__active">Our pets</a>
+                            </li>
+                            <li class="header-nav__list-item">
+                                <a href="#" class="list-link list-link__inactive">Help the shelter</a>
+                            </li>
+                            <li class="header-nav__list-item">
+                                <a href="#" class="list-link list-link__inactive">Contacts</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>     
+        </header>
+        <main>
+            <div class="pets">
+                <div class="container">
+                    <div class="pets-content">
+                        <h3>
+                            <span>Our friends who</span>
+                            <span>are looking for a house</span>
+                        </h3>
+                        <div class="content__cards">
+                        </div>
+                        <div class="content__slider">
+                            <div onclick="directionLeftMax()" class="slider left">
+                                <span><<</span>
+                            </div>
+                            <div onclick="directionLeft()" class="slider left">
+                                <span><</span>
+                            </div>
+                            <div class="slider number">
+                                <span>1</span>
+                            </div>
+                            <div onclick="directionRight()" class="slider right active">
+                                <span>></span>    
+                            </div>
+                            <div onclick="directionRightMax()" class="slider right active">
+                                <span>>></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div onclick="deleteInfoCard()" class="info-pets">
+                <div class="info-content">  
+                </div>
+                <div onclick="deleteInfoCard()" class="button">
+                     <img src="../Assets/svg/Vector.svg" alt="">
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="footer">
+                <div class="container">
+                    <div class="footer-content">
+                        <div class="footer-content__text">
+                            <div class="content__mail">
+                            <h3>
+                                <span>For questions</span>
+                                <span>and suggestions</span>
+                            </h3>
+                            <div class="mail">
+                                <img src="../Assets/svg/mail.svg" alt="">
+                                <h4>email@shelter.com</h4>
+                            </div>
+                            <div class="telephone">
+                                <img src="../Assets/svg/phone.svg" alt="">
+                                <h4>+13 674 567 75 54</h4>
+                            </div>
+                        </div>
+                        <div class="content__visit">
+                            <h3>
+                                <span>We are waiting</span>
+                                <span>for your visit</span>
+                            </h3>
+                            <div class="boston">
+                                <img src="../Assets/svg/icon-marker.svg" alt="">
+                                <h4>1 Central Street, Boston<br>
+                                     (entrance from the store)</h4>
+                            </div>
+                            <div class="london">
+                                <img src="../Assets/svg/icon-marker.svg" alt="">
+                                <h4>18 South Park, London</h4>
+                            </div>
+                        </div>
+                        </div>
+                            <img src="../Assets/Img/footer-puppy.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>  
+</body>
+</html>

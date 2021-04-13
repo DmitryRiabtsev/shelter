@@ -1,1 +1,1 @@
- https://dmitryriabtsev.github.io/shelter/shelter/pages/main/main.html
+ https://dmitryriabtsev.github.io/shelter/main/main.html

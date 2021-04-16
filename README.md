@@ -1,4 +1,4 @@
-#Макет Shelter
+# Макет Shelter
 
 ### ссылка на задание1: https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level-2/shelter/shelter-main-page-ru.md
 ### ссылка на задание2: https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level-2/shelter/shelter-pets-page-ru.md
